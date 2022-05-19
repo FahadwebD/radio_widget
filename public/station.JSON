@@ -1,0 +1,35 @@
+[
+    {
+        "id": "B002RL8IYi",
+        "name": "Putin FM",
+        "channel":"66,6",  
+        "img": "https://i.ibb.co/JznV81p/ELO-Time-expanded-album-cover.jpg"
+    },
+    {
+        "id": "B002RL8IYh",
+        "name": "Dribble FM",
+        "channel":"101,2",  
+        "img": "https://i.ibb.co/JznV81p/ELO-Time-expanded-album-cover.jpg"
+    },
+    {
+        "id": "B002RL8IYd",
+        "name": "Doge FM",
+        "channel":"99,4",  
+        "img": "https://i.ibb.co/JznV81p/ELO-Time-expanded-album-cover.jpg"
+    },
+    {
+        "id": "B002RL8IYd",
+        "name": "BALLADAS FM",
+        "channel":"87,1",  
+        "img": "https://i.ibb.co/JznV81p/ELO-Time-expanded-album-cover.jpg"
+    },
+    {
+        "id": "B002RL8IYg",
+        "name": "MAXIMUM FM",
+        "channel":"142,2",  
+        "img": "https://i.ibb.co/JznV81p/ELO-Time-expanded-album-cover.jpg"
+    }
+    
+    
+    
+]
