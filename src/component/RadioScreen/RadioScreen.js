@@ -13,9 +13,9 @@ function CustomToggle({ children, eventKey }) {
   );
 
   return (
-    <p style={{border:'none'}} onClick={decoratedOnClick}>
+    <div className='d-flex justify-content-between justify-content-center align-items-center' style={{border:'none' , backgroundColor:"#2a2a35"}} onClick={decoratedOnClick}>
       {children}
-    </p>
+    </div>
   );
 }
 
@@ -27,38 +27,38 @@ const RadioScreen = () => {
   <ListGroup variant="flush" >
  
     <ListGroup.Item style={{backgroundColor:'#2a2a35' , color:'#a3acbe'}}> <Accordion defaultActiveKey="0">
-      <Card style={{backgroundColor:'#2d2d38' , border:'none' , shadow:'none'}}>
+      <Card style={{backgroundColor:'#2a2a35' , border:'none' , shadow:'none'}}>
 
       <Accordion.Collapse eventKey="0">
-          <Card.Body style={{backgroundColor:"#2d2d38"}}>Hello! I'm the body</Card.Body>
+          <Card.Body style={{backgroundColor:"#2a2a35"}}>Hello! I'm the body</Card.Body>
         </Accordion.Collapse>
-        <Card.Header>
-          <CustomToggle eventKey="0">Click me!</CustomToggle>
-        </Card.Header>
+ 
+        <CustomToggle eventKey="0"><p>Click me!</p> <p>66</p></CustomToggle>
+        
        
       </Card>
     </Accordion></ListGroup.Item>
-    <ListGroup.Item style={{backgroundColor:'#2a2a35', color:'#a3acbe'}}><Accordion defaultActiveKey="0">
-      <Card style={{backgroundColor:'#2d2d38' , border:'none' , shadow:'none'}}>
+    <ListGroup.Item style={{backgroundColor:'#2a2a35' , color:'#a3acbe'}}> <Accordion defaultActiveKey="0">
+      <Card style={{backgroundColor:'#2a2a35' , border:'none' , shadow:'none'}}>
 
-      <Accordion.Collapse eventKey="0">
-          <Card.Body style={{backgroundColor:"#2d2d38"}}>Hello! I'm the body</Card.Body>
+      <Accordion.Collapse eventKey="1">
+          <Card.Body style={{backgroundColor:"#2a2a35"}}>Hello! I'm the body</Card.Body>
         </Accordion.Collapse>
-        <Card.Header>
-          <CustomToggle eventKey="0">Click me!</CustomToggle>
-        </Card.Header>
+ 
+        <CustomToggle eventKey="1"><p>Click me!</p> <p>66</p></CustomToggle>
+        
        
       </Card>
     </Accordion></ListGroup.Item>
-    <ListGroup.Item style={{backgroundColor:'#2a2a35', color:'#a3acbe'}}><Accordion defaultActiveKey="0">
-      <Card style={{backgroundColor:'#2d2d38' , border:'none' , shadow:'none'}}>
+    <ListGroup.Item style={{backgroundColor:'#2a2a35' , color:'#a3acbe'}}> <Accordion defaultActiveKey="0">
+      <Card style={{backgroundColor:'#2a2a35' , border:'none' , shadow:'none'}}>
 
-      <Accordion.Collapse eventKey="0">
-          <Card.Body style={{backgroundColor:"#2d2d38"}}>Hello! I'm the body</Card.Body>
+      <Accordion.Collapse eventKey="2">
+          <Card.Body style={{backgroundColor:"#2a2a35"}}>Hello! I'm the body</Card.Body>
         </Accordion.Collapse>
-        <Card.Header>
-          <CustomToggle eventKey="0">Click me!</CustomToggle>
-        </Card.Header>
+ 
+        <CustomToggle eventKey="2"><p>Click me!</p> <p>66</p></CustomToggle>
+        
        
       </Card>
     </Accordion></ListGroup.Item>
