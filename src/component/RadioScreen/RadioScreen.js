@@ -18,7 +18,7 @@ const RadioScreen = () => {
         <div className='container '>
             <Card className='shadow-lg' style={{ width: '18rem', backgroundColor:'#2a2a35' , position:'relative'}}>
   <Card.Header style={{ backgroundColor:'#eeae61' , border:'none' , padding:'15px'}} className='rounded-top d-flex justify-content-between justify-content-center align-items-center' ><div><img style={{width:'20px' , height:'20px'}} src={backArrow} alt="" srcset="" /></div><p className='m-0' style={{fontWeight:'bolder' , color:'white'}}>STATION</p> <div><img style={{width:'20px' , height:'20px'}} src={power} alt="" srcset="" /></div></Card.Header>
-  <ListGroup variant="flush"  >
+  <ListGroup  variant="flush"  >
  
    {
    

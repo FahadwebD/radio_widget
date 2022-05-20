@@ -28,7 +28,7 @@ const CustomToggles = ({m , nameOfStation}) => {
   
   return (
     <div>
-       <ListGroup.Item style={{backgroundColor:'#2a2a35' , color:'#a3acbe' }}> <Accordion eventKey="0">
+       <ListGroup.Item style={{backgroundColor:'#2a2a35' , color:'#a3acbe',overflow:'hidden' }}> <Accordion eventKey="0">
       <Card  style={{backgroundColor:'#2a2a35' , border:'none' , shadow:'none' }}>
 
       <Accordion.Collapse eventKey="0">
